@@ -1,0 +1,226 @@
+/* =====================================================================
+   SecurePass - Unslop Design System: Refined Themes
+   Tuned neutral ramps, tactile surfaces, hairline borders, no neon slop
+   ===================================================================== */
+
+/* Flagship: Unslop Studio (Zinc & Minimalist Monochrome / Ice) */
+:root, [data-theme="unslop-studio"], [data-theme="cyber-slate"] {
+  --theme-name: "Unslop Studio";
+  --bg-app: #09090b;
+  --bg-sidebar: #0e0e11;
+  --bg-surface: #141417;
+  --bg-surface-elevated: #1a1a1f;
+  --bg-surface-hover: #222228;
+  --bg-input: #111114;
+  --bg-modal: #141418;
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.22);
+
+  --accent-cyan: #38bdf8;
+  --accent-cyan-glow: rgba(56, 189, 248, 0.12);
+  --accent-primary: #38bdf8;
+  --accent-primary-glow: rgba(56, 189, 248, 0.14);
+  --accent-blue: #3b82f6;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.12);
+  --accent-purple: #a855f7;
+
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --text-inverse: #09090b;
+
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4), 0 6px 16px -2px rgba(0, 0, 0, 0.35);
+}
+
+/* Theme 2: Graphite Slate (Cool Industrial Slate) */
+[data-theme="graphite-slate"] {
+  --theme-name: "Graphite Slate";
+  --bg-app: #0b0f17;
+  --bg-sidebar: #0f1521;
+  --bg-surface: #141c2c;
+  --bg-surface-elevated: #1a253a;
+  --bg-surface-hover: #22304b;
+  --bg-input: #101724;
+  --bg-modal: #151e30;
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(14, 165, 233, 0.3);
+
+  --accent-cyan: #0ea5e9;
+  --accent-cyan-glow: rgba(14, 165, 233, 0.12);
+  --accent-primary: #0ea5e9;
+  --accent-primary-glow: rgba(14, 165, 233, 0.14);
+  --accent-blue: #38bdf8;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.12);
+  --accent-purple: #818cf8;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #0b0f17;
+
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.45), 0 6px 16px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Theme 3: Terminal Emerald (Matte Obsidian & Phosphor Green) */
+[data-theme="terminal-emerald"], [data-theme="matrix-emerald"] {
+  --theme-name: "Terminal Emerald";
+  --bg-app: #080b09;
+  --bg-sidebar: #0d120f;
+  --bg-surface: #121a15;
+  --bg-surface-elevated: #17231c;
+  --bg-surface-hover: #1e2e25;
+  --bg-input: #0e1611;
+  --bg-modal: #131c16;
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(16, 185, 129, 0.3);
+
+  --accent-cyan: #10b981;
+  --accent-cyan-glow: rgba(16, 185, 129, 0.12);
+  --accent-primary: #10b981;
+  --accent-primary-glow: rgba(16, 185, 129, 0.14);
+  --accent-blue: #34d399;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.12);
+  --accent-purple: #059669;
+
+  --text-primary: #ecfdf5;
+  --text-secondary: #a7f3d0;
+  --text-muted: #6ee7b7;
+  --text-inverse: #06170d;
+
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.45), 0 6px 16px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Theme 4: Midnight Navy (Deep Intelligence Navy & Celestial Azure) */
+[data-theme="midnight-navy"], [data-theme="midnight-blue"] {
+  --theme-name: "Midnight Navy";
+  --bg-app: #070a13;
+  --bg-sidebar: #0c1120;
+  --bg-surface: #11182c;
+  --bg-surface-elevated: #16203a;
+  --bg-surface-hover: #1d2a4c;
+  --bg-input: #0e1425;
+  --bg-modal: #121a30;
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(56, 189, 248, 0.3);
+
+  --accent-cyan: #38bdf8;
+  --accent-cyan-glow: rgba(56, 189, 248, 0.12);
+  --accent-primary: #38bdf8;
+  --accent-primary-glow: rgba(56, 189, 248, 0.14);
+  --accent-blue: #60a5fa;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.12);
+  --accent-purple: #818cf8;
+
+  --text-primary: #f0f9ff;
+  --text-secondary: #bae6fd;
+  --text-muted: #7dd3fc;
+  --text-inverse: #082f49;
+
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.45), 0 6px 16px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Theme 5: Onyx Crimson (Tactile Carbon & Surgical Ruby) */
+[data-theme="onyx-crimson"], [data-theme="crimson-protocol"], [data-theme="synthwave-neon"] {
+  --theme-name: "Onyx Crimson";
+  --bg-app: #0c090a;
+  --bg-sidebar: #130f11;
+  --bg-surface: #1a1417;
+  --bg-surface-elevated: #231a1f;
+  --bg-surface-hover: #2e2229;
+  --bg-input: #151012;
+  --bg-modal: #1c1518;
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(244, 63, 94, 0.3);
+
+  --accent-cyan: #f43f5e;
+  --accent-cyan-glow: rgba(244, 63, 94, 0.12);
+  --accent-primary: #f43f5e;
+  --accent-primary-glow: rgba(244, 63, 94, 0.14);
+  --accent-blue: #fb7185;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.12);
+  --accent-purple: #e11d48;
+
+  --text-primary: #fff1f2;
+  --text-secondary: #fecdd3;
+  --text-muted: #fda4af;
+  --text-inverse: #4c0519;
+
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.45), 0 6px 16px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Theme 6: Industrial Amber (Studio Charcoal & Bronze Amber) */
+[data-theme="industrial-amber"], [data-theme="solar-amber"] {
+  --theme-name: "Industrial Amber";
+  --bg-app: #0d0b09;
+  --bg-sidebar: #14110d;
+  --bg-surface: #1c1813;
+  --bg-surface-elevated: #252019;
+  --bg-surface-hover: #312a21;
+  --bg-input: #16130f;
+  --bg-modal: #1e1914;
+
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(245, 158, 11, 0.3);
+
+  --accent-cyan: #f59e0b;
+  --accent-cyan-glow: rgba(245, 158, 11, 0.12);
+  --accent-primary: #f59e0b;
+  --accent-primary-glow: rgba(245, 158, 11, 0.14);
+  --accent-blue: #fbbf24;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.12);
+  --accent-amber: #f59e0b;
+  --accent-amber-glow: rgba(245, 158, 11, 0.12);
+  --accent-rose: #f43f5e;
+  --accent-rose-glow: rgba(244, 63, 94, 0.12);
+  --accent-purple: #d97706;
+
+  --text-primary: #fffbeb;
+  --text-secondary: #fde68a;
+  --text-muted: #fcd34d;
+  --text-inverse: #451a03;
+
+  --surface-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.45), 0 6px 16px -2px rgba(0, 0, 0, 0.4);
+}
